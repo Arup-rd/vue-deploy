@@ -106,7 +106,6 @@ export default {
         console.log(values);
         if (!err) {
           console.log("Received values of form: ", values);
-          this.tableData = [];
           this.tableData.push(values);
           this.showTable = true;
           this.form.resetFields();
